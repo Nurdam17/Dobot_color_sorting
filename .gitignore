@@ -1,0 +1,27 @@
+
+# Ignore build, install, and log directories (auto-generated)
+build/
+install/
+log/
+venv/
+datasets/
+cam_images/
+
+
+# Ignore hidden files related to system and development
+.DS_Store
+*.swp
+*.swo
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore CMake build artifacts
+CMakeLists.txt.user
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+
