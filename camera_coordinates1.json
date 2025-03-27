@@ -1,6 +1,50 @@
-{
-    "model_name": "red",
-    "X_robot_mm": 118.22727272727275,
-    "Y_robot_mm": -40.0,
-    "Z_robot_mm": 304.955311183672
-}
+[
+    {
+        "model_name": "yellow",
+        "X_robot_mm": 134.86363636363637,
+        "Y_robot_mm": -76.5277777777778,
+        "Z_robot_mm": 283.01608016326395
+    },
+    {
+        "model_name": "red",
+        "X_robot_mm": 55.5,
+        "Y_robot_mm": -16.944444444444457,
+        "Z_robot_mm": 275.0995464524034
+    },
+    {
+        "model_name": "red",
+        "X_robot_mm": 83.45454545454544,
+        "Y_robot_mm": -121.25000000000003,
+        "Z_robot_mm": 357.6294103881244
+    },
+    {
+        "model_name": "yellow",
+        "X_robot_mm": 36.27272727272731,
+        "Y_robot_mm": -120.2777777777778,
+        "Z_robot_mm": 317.25189631204586
+    },
+    {
+        "model_name": "red",
+        "X_robot_mm": 42.27272727272731,
+        "Y_robot_mm": -66.80555555555557,
+        "Z_robot_mm": 280.99453673352633
+    },
+    {
+        "model_name": "red",
+        "X_robot_mm": 120.13636363636363,
+        "Y_robot_mm": -22.5,
+        "Z_robot_mm": 330.5818079217957
+    },
+    {
+        "model_name": "yellow",
+        "X_robot_mm": 91.09090909090912,
+        "Y_robot_mm": -31.94444444444443,
+        "Z_robot_mm": 280.99453673352633
+    },
+    {
+        "model_name": "yellow",
+        "X_robot_mm": 83.72727272727275,
+        "Y_robot_mm": -68.88888888888889,
+        "Z_robot_mm": 307.33777455229443
+    }
+]
