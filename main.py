@@ -1,13 +1,10 @@
-import json
+from serial.tools import list_ports
+from pydobotplus import Dobot
 import time
-import numpy as np
-from pydobot import Dobot
-
+PORT_GP4 = 2
 port = "/dev/tty.usbserial-130"
 
 device = Dobot(port=port)
-pose = device._get_pose()
-
-device.speed(350, 370)
-print(device.pose())
-device.move_to(120, 0,0 , 0)
+print(device.get_pose())
+device.move_to(120, 0, 0,0)
+device.close()

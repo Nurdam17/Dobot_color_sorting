@@ -2,6 +2,7 @@ import json
 import time
 import numpy as np
 from pydobot import Dobot
+from pydobotplus import Dobot
 
 port = "/dev/tty.usbserial-130"
 
@@ -23,7 +24,7 @@ if not camera_coordinates or not isinstance(camera_coordinates, list):
     exit()
 
 device = Dobot(port=port)
-device.speed(350, 370)
+device.speed(450,500)
 
 R_m = np.array([
     [0, -1, 0],
@@ -34,7 +35,7 @@ P_robot_to_camera = np.array([262.2, 25, 306])
 
 # Смещения
 diff_x = -97
-diff_y = -10
+diff_y = -17
 diff_z = 0
 
 for obj in camera_coordinates:
@@ -54,21 +55,22 @@ for obj in camera_coordinates:
     time.sleep(3)
     device.move_to(P_robot[0] + diff_x, P_robot[1] + diff_y, 30, 0)
 
-    # Размещение по цвету
-    if model_name == "red":
-        device.move_to(214, 142, 30, 0)
-        device.move_to(214, 142, 0, 0)
+    if model_name == "yellow":
+        device.move_to(21, 255, 21, 0)
         device.suck(False)
-        device.move_to(214, 142, 30, 0)
-    elif model_name == "yellow":
-        device.move_to(208, 85, 30, 0)
-        device.move_to(208, 85, 0, 0)
+        device.move_to(225, 132, 17, 0)
+        device.conveyor_belt_distance(speed_mm_per_sec=100, distance_mm=300, direction=-1)
+        device.conveyor_belt(speed = 0, direction=1)
+
+    elif model_name == "red":
+        device.move_to(23, 301, 21, 0)
         device.suck(False)
-        device.move_to(208, 85, 30, 0)
+        device.move_to(225, 132, 17, 0)
+        device.conveyor_belt_distance(speed_mm_per_sec=100, distance_mm=550, direction=1)
+        device.conveyor_belt(speed = 0, direction=-1)
 
     device.move_to(120, 0, 0, 0)
 
     # Пауза между объектами
-    time.sleep(5)
-
+    time.sleep(1)
 print("Обработка завершена.")
