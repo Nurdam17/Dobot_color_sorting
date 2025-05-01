@@ -1,0 +1,26 @@
+[0.304s] Invoking command in '/home/aliyanur/damir_ros/src/dobot_sorting_color': PYTHONPATH=/home/aliyanur/damir_ros/build/dobot_sorting_color/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aliyanur/damir_ros/install/dobot_sorting_color/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_sorting_color build --build-base /home/aliyanur/damir_ros/build/dobot_sorting_color/build install --record /home/aliyanur/damir_ros/build/dobot_sorting_color/install.log --single-version-externally-managed install_data
+[0.416s] running egg_info
+[0.416s] writing ../../build/dobot_sorting_color/dobot_sorting_color.egg-info/PKG-INFO
+[0.416s] writing dependency_links to ../../build/dobot_sorting_color/dobot_sorting_color.egg-info/dependency_links.txt
+[0.416s] writing entry points to ../../build/dobot_sorting_color/dobot_sorting_color.egg-info/entry_points.txt
+[0.416s] writing requirements to ../../build/dobot_sorting_color/dobot_sorting_color.egg-info/requires.txt
+[0.416s] writing top-level names to ../../build/dobot_sorting_color/dobot_sorting_color.egg-info/top_level.txt
+[0.417s] reading manifest file '../../build/dobot_sorting_color/dobot_sorting_color.egg-info/SOURCES.txt'
+[0.417s] adding license file 'LICENSE'
+[0.417s] writing manifest file '../../build/dobot_sorting_color/dobot_sorting_color.egg-info/SOURCES.txt'
+[0.417s] running build
+[0.417s] running build_py
+[0.417s] copying dobot_sorting_color/main_new.py -> /home/aliyanur/damir_ros/build/dobot_sorting_color/build/lib/dobot_sorting_color
+[0.418s] running install
+[0.418s] running install_lib
+[0.419s] copying /home/aliyanur/damir_ros/build/dobot_sorting_color/build/lib/dobot_sorting_color/main_new.py -> /home/aliyanur/damir_ros/install/dobot_sorting_color/lib/python3.10/site-packages/dobot_sorting_color
+[0.419s] byte-compiling /home/aliyanur/damir_ros/install/dobot_sorting_color/lib/python3.10/site-packages/dobot_sorting_color/main_new.py to main_new.cpython-310.pyc
+[0.420s] running install_data
+[0.420s] running install_egg_info
+[0.421s] removing '/home/aliyanur/damir_ros/install/dobot_sorting_color/lib/python3.10/site-packages/dobot_sorting_color-0.0.0-py3.10.egg-info' (and everything under it)
+[0.421s] Copying ../../build/dobot_sorting_color/dobot_sorting_color.egg-info to /home/aliyanur/damir_ros/install/dobot_sorting_color/lib/python3.10/site-packages/dobot_sorting_color-0.0.0-py3.10.egg-info
+[0.421s] running install_scripts
+[0.431s] Installing camera_new script to /home/aliyanur/damir_ros/install/dobot_sorting_color/lib/dobot_sorting_color
+[0.431s] Installing main_new script to /home/aliyanur/damir_ros/install/dobot_sorting_color/lib/dobot_sorting_color
+[0.431s] writing list of installed files to '/home/aliyanur/damir_ros/build/dobot_sorting_color/install.log'
+[0.443s] Invoked command in '/home/aliyanur/damir_ros/src/dobot_sorting_color' returned '0': PYTHONPATH=/home/aliyanur/damir_ros/build/dobot_sorting_color/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aliyanur/damir_ros/install/dobot_sorting_color/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_sorting_color build --build-base /home/aliyanur/damir_ros/build/dobot_sorting_color/build install --record /home/aliyanur/damir_ros/build/dobot_sorting_color/install.log --single-version-externally-managed install_data

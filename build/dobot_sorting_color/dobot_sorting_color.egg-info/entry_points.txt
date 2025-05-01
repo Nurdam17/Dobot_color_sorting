@@ -1,0 +1,4 @@
+[console_scripts]
+camera_new = dobot_sorting_color.camera_new:main
+main_new = dobot_sorting_color.main_new:main
+
